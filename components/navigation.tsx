@@ -9,10 +9,9 @@ import { Menu, X } from "lucide-react"
 import { cn } from "@/lib/utils"
 
 const navigation = [
-  { name: "Home", href: "/" },
-  { name: "Projects", href: "/projects" },
-  { name: "About", href: "/about" },
-  { name: "Blog", href: "/blog" },
+  { name: "about", href: "/" },
+  { name: "projects", href: "/projects" },
+  { name: "blog", href: "/blog" },
 ]
 
 export function Navigation() {
@@ -26,9 +25,9 @@ export function Navigation() {
           {/* Logo */}
           <Link
             href="/"
-            className="text-xl font-bold bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent"
+            className="text-xl font-bold bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text"
           >
-            John Doe
+            Barry Paul
           </Link>
 
           {/* Desktop Navigation */}
