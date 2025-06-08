@@ -178,14 +178,14 @@ export default function AboutPage() {
           {/* Main Content */}
           <div className="grid lg:grid-cols-2 gap-12 mb-16">
             {/* Bio Section */}
-            <div className="backdrop-blur-md bg-white/10 dark:bg-gray-800/10 rounded-3xl p-8 border border-white/20 dark:border-gray-700/20 shadow-xl">
+            <div className="backdrop-blur-md bg-white/10 dark:bg-gray-800/10 rounded-3xl p-8 border border-white/20 dark:border-white-700/20 shadow-xl">
               <div className="flex items-center mb-6">
                 <Image
                   src="/memoji.png?height=80&width=80"
                   alt="Profile"
                   width={80}
                   height={80}
-                  className="rounded-full border-4 border-white/20 mr-4"
+                  className="rounded-full mr-4"
                 />
                 <div>
                   <h2 className="text-2xl font-bold text-gray-800 dark:text-gray-200">Barry Paul</h2>
@@ -210,16 +210,16 @@ export default function AboutPage() {
               </div>
               {/* Social Icons Row */}
               <div className="flex justify-left gap-3 mt-6">
-                <a href="https://www.linkedin.com/in/barryxpaul/" target="_blank" rel="noopener noreferrer" className="text-gray-500 hover:text-blue-600 transition">
+                <a href="https://www.linkedin.com/in/barryxpaul/" target="_blank" rel="noopener noreferrer" className="text-white-500 hover:text-blue-600 transition">
                   <Linkedin className="h-5 w-5" />
                 </a>
-                <a href="https://x.com/barryxpaul" target="_blank" rel="noopener noreferrer" className="text-gray-500 hover:text-black transition">
+                <a href="https://x.com/barryxpaul" target="_blank" rel="noopener noreferrer" className="text-white-500 hover:text-black transition">
                   <XTwitterIcon className="h-5 w-5" />
                 </a>
-                <a href="mailto:barryxpaul@gmail.com" className="text-gray-500 hover:text-rose-500 transition">
+                <a href="mailto:barryxpaul@gmail.com" className="text-white-500 hover:text-rose-500 transition">
                   <Mail className="h-5 w-5" />
                 </a>
-                <a href="https://github.com/barryxinpaul" target="_blank" rel="noopener noreferrer" className="text-gray-500 hover:text-black dark:hover:text-white transition">
+                <a href="https://github.com/barryxinpaul" target="_blank" rel="noopener noreferrer" className="text-white-500 hover:text-black dark:hover:text-white transition">
                   <Github className="h-5 w-5" />
                 </a>
               </div>

@@ -20,10 +20,20 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en" suppressHydrationWarning>
-      <body className={inter.className}>
+      <body className={
+        `${inter.className} bg-gradient-to-br from-blue-50 via-white to-purple-50 dark:from-gray-900 dark:via-gray-800 dark:to-purple-900`
+      }>
         <ThemeProvider attribute="class" defaultTheme="system" enableSystem disableTransitionOnChange>
           <Navigation />
           <main>{children}</main>
+          <footer className="mt-16">
+        <div className="w-32 mx-auto">
+          <hr className="border-t border-black dark:border-white mb-6" />
+        </div>
+        <div className="text-center text-black dark:text-white text-sm pb-8 font-mono">
+          made by barry
+        </div>
+      </footer>
         </ThemeProvider>
       </body>
     </html>
