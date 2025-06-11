@@ -10,8 +10,7 @@ const inter = Inter({ subsets: ["latin"] })
 
 export const metadata: Metadata = {
   title: "Barry Paul",
-  description: "Personal portfolio of Barry Paul, a passionate full-stack developer and UI/UX designer.",
-    generator: 'v0.dev'
+  description: "Personal portfolio of Barry Paul, a software engineer, student, and problem solver.",
 }
 
 export default function RootLayout({
@@ -24,7 +23,7 @@ export default function RootLayout({
       <body className={
         `${inter.className} bg-gradient-to-br from-blue-50 via-white to-purple-50 dark:from-gray-900 dark:via-gray-800 dark:to-purple-900`
       }>
-        <ThemeProvider attribute="class" defaultTheme="system" enableSystem disableTransitionOnChange>
+        <ThemeProvider attribute="class" defaultTheme="dark" enableSystem disableTransitionOnChange>
           <Navigation />
           <main>{children}</main>
           <footer className="mt-16">

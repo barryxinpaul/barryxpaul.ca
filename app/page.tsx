@@ -212,10 +212,10 @@ export default function AboutPage() {
                   has evolved into a deep love for technology and business.
                 </p>
                 <p>
-                  When I'm not coding, you can find me exploring new technologies, reading books at Weldon Library, hanging out with friends, trying out new restaurants, or playing basketball.
+                  When I'm not coding, you can find me exploring new technologies (aka doomscrolling X/Twitter), reading books at Weldon Library, hanging out with friends, trying out new restaurants, or playing basketball.
                 </p>
                 <p>
-                  I'm currently based in Toronto, working for Sherpa° to build amazing products that makes travelling the world simple.
+                  I'm currently based in Toronto, working for Sherpa° to build cool products that makes travelling the world simple.
                 </p>
                 <p>
                   Feel free to reach out through email or LinkedIn and schedule a chat whenever you'd like!
