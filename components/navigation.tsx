@@ -23,10 +23,10 @@ export function Navigation() {
         <div className="flex items-center justify-between h-16">
           {/* Logo */}
           <Link
-            href="/memoji.png"
+            href="https://www.linkedin.com/in/barryxpaul/"
             className="text-xl font-bold bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text"
           >
-            barry paul
+            
           </Link>
 
           {/* Desktop Navigation */}
