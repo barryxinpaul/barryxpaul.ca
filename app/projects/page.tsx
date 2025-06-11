@@ -6,26 +6,26 @@ import Image from "next/image"
 
 const projects = [
   {
-    title: "E-Commerce Platform",
-    description: "A full-stack e-commerce solution with React, Node.js, and Stripe integration.",
+    title: "muck",
+    description: "An app that helps you find the best places to eat in your area.",
     image: "/placeholder.svg?height=200&width=300",
     tags: ["React", "Node.js", "MongoDB", "Stripe"],
-    github: "#",
-    demo: "#",
+    github: "https://github.com/barrypaul/muck",
+    demo: "https://muck.barrypaul.com",
+  },
+  {
+    title: "Protier",
+    description: "A website that helps you find the best protien powders and rate them.",
+    image: "/placeholder.svg?height=200&width=300",
+    tags: ["Vue.js", "Chart.js", "OpenWeather API"],
+    github: "https://github.com/barrypaul/protier",
+    demo: "https://protier.barrypaul.com",
   },
   {
     title: "Task Management App",
     description: "A collaborative task management application with real-time updates.",
     image: "/placeholder.svg?height=200&width=300",
     tags: ["Next.js", "TypeScript", "Prisma", "Socket.io"],
-    github: "#",
-    demo: "#",
-  },
-  {
-    title: "Weather Dashboard",
-    description: "A beautiful weather dashboard with location-based forecasts and charts.",
-    image: "/placeholder.svg?height=200&width=300",
-    tags: ["Vue.js", "Chart.js", "OpenWeather API"],
     github: "#",
     demo: "#",
   },

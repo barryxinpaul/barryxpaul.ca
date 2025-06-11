@@ -1,8 +1,11 @@
+"use client"
+
 import { Card, CardContent } from "@/components/ui/card"
 import { Badge } from "@/components/ui/badge"
 import { Code, Palette, Zap, Users, Mail, Download, Linkedin, X as XIcon, Github } from "lucide-react"
 import Image from "next/image"
 import { Accordion, AccordionItem, AccordionTrigger, AccordionContent } from "@/components/ui/accordion"
+import { toast } from "sonner"
 
 const skills = [
   { category: "Frontend", items: ["React", "Next.js", "TypeScript", "Tailwind CSS", "Vue.js"] },
@@ -139,6 +142,16 @@ const XTwitterIcon = (props: React.SVGProps<SVGSVGElement>) => (
 );
 
 export default function AboutPage() {
+  const handleCopyEmail = async () => {
+    try {
+      await navigator.clipboard.writeText("barrypaul@gmail.com")
+      toast.success("Email copied to clipboard!")
+    } catch (err) {
+      console.error("Failed to copy email:", err)
+      toast.error("Failed to copy email")
+    }
+  }
+
   return (
     <div className="min-h-screen bg-gradient-to-br from-blue-50 via-white to-purple-50 dark:from-gray-900 dark:via-gray-800 dark:to-purple-900">
       <div className="container mx-auto px-4 pt-32 pb-20">
@@ -154,14 +167,14 @@ export default function AboutPage() {
               </p>
               {/* Buttons Row */}
               <div className="flex flex-col sm:flex-row gap-4 justify-center mt-8">
-                <a
-                  href="mailto:barryxpaul@gmail.com"
+                <button
+                  onClick={handleCopyEmail}
                   className="flex items-center justify-center px-5 py-2 rounded-xl border border-gray-200 dark:border-gray-700 bg-white dark:bg-transparent text-gray-900 dark:text-white font-semibold text-base shadow-sm hover:bg-gray-50 dark:hover:bg-gray-800 transition-all duration-200 group"
                   style={{ boxShadow: "0 0 0 1.5px #e5e7eb" }}
                 >
                   <Mail className="h-5 w-5 mr-2 text-gray-700 dark:text-gray-200 group-hover:text-blue-600 transition" />
                   Email me
-                </a>
+                </button>
                 <a
                   href="/Paul_Barry_Resume.pdf"
                   target="_blank"
@@ -216,9 +229,9 @@ export default function AboutPage() {
                 <a href="https://x.com/barryxpaul" target="_blank" rel="noopener noreferrer" className="text-white-500 hover:text-black transition">
                   <XTwitterIcon className="h-5 w-5" />
                 </a>
-                <a href="mailto:barryxpaul@gmail.com" className="text-white-500 hover:text-rose-500 transition">
+                <button onClick={handleCopyEmail} className="text-white-500 hover:text-rose-500 transition">
                   <Mail className="h-5 w-5" />
-                </a>
+                </button>
                 <a href="https://github.com/barryxinpaul" target="_blank" rel="noopener noreferrer" className="text-white-500 hover:text-black dark:hover:text-white transition">
                   <Github className="h-5 w-5" />
                 </a>
