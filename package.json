@@ -8,7 +8,7 @@
     "start": "next start",
     "lint": "next lint",
     "export": "next build",
-    "deploy": "next build && touch out/.nojekyll && gh-pages -d out"
+    "deploy": "next build && touch out/.nojekyll && gh-pages -d out -u \"github-actions[bot] <github-actions[bot]@users.noreply.github.com>\""
   },
   "dependencies": {
     "@hookform/resolvers": "^3.9.1",
