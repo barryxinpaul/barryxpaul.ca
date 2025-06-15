@@ -9,7 +9,7 @@ image: "/sherpa-logo-onblack.png"
 
 ### hi there!
 
-i'm currently in the middle of my summer internship at sherpa°, living in a condo Downtown toronto with my friends and finally have some time to write reflect on my sophmore year and what my goals are for the summer. decided to start blogging as a way to keep track of my goals and thoughts so this is more for me than you but thanks for reading lol.
+i'm currently in the middle of my summer internship at sherpa°, living in a condo downtown toronto with my friends and finally have some time to write reflect on my sophmore year and what my goals are for the summer. decided to start blogging as a way to keep track of my goals and thoughts so this is more for me than you but thanks for reading lol.
 
 ### 2nd year
 
