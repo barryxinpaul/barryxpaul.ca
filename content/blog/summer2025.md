@@ -39,7 +39,7 @@ i've been meaning to start a blog for a while now but never really got around to
 i'm interning at sherpa° this summer and i love it. it's been a perfect blend between creative and technical work and i've been able to learn a lot from it. building out ai related products rn and joining a bunch of meetings.
 
 #### recruitment
-can you believe that recruiting for 2026 is already happening? i'm one month into my internship and i'm already thinking about next year. the good news is that it's casing and i've been enjoying that a lot while learning it. thankfully thankfully, i've been blessed with lots of good resources that i'll share in one of my blogs.
+can you believe that recruiting for 2026 is already happening? i'm one month into my internship and i'm already thinking about next year. the good news is that it's casing and i've been enjoying that a lot while learning it. thankfully, i've been blessed with lots of good resources that i'll share in one of my blogs.
 
 #### health
 go gym, eat healthy, and sleep more.
