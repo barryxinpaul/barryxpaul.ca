@@ -16,7 +16,7 @@ i'm currently in the middle of my summer internship at sherpa°, living in a con
 damn, time flies. I can't believe it's already over. nonetheless, this year was a rollercoaster. rigourous courses (bus2257 & cs2209 are the worst), new friends, big fights, and lots of days in Weldon. 
 
 on the brightside:
-- i had a lot of fun with my friends and made a lot of memories getting drunk, high, concerts, and "studying" together
+- i had a lot of fun with my friends and made a lot of memories clubbing, concerts, and "studying" together
 - was invited into mckinsey challenge and attended 2 hackathons (uoft & geese)
 - recruited into sherpa° for a software engineering internship and interviewed at 6+ other companies (amazon, ibm, zurich, etc.)
 - danced and modelled for caisa fashion show (#sports) and loved my w5 dev, bagel ai, and taw team

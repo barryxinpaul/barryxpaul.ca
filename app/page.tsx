@@ -10,7 +10,7 @@ import { toast } from "sonner"
 const skills = [
   { category: "Frontend", items: ["React", "Next.js", "TypeScript", "Tailwind CSS", "Vue.js"] },
   { category: "Backend", items: ["Node.js", "Python", "PostgreSQL", "MongoDB", "Express"] },
-  { category: "Business", items: ["Strategy & Operations", "Deck Building", "Data Analysis", "Go-To-Market (GTM)"] },
+  { category: "Business", items: ["Strategy & Operations", "Deck Building", "Data Analysis"] },
   { category: "Design", items: ["UI/UX", "Prototyping", "Wireframing", "Design Systems"] },
 ]
 
