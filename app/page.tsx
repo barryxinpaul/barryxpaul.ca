@@ -2,7 +2,7 @@
 
 import { Card, CardContent } from "@/components/ui/card"
 import { Badge } from "@/components/ui/badge"
-import { Code, Palette, Zap, Users, Mail, Download, Linkedin, X as XIcon, Github } from "lucide-react"
+import { Code, Palette, Zap, Users, Mail, Download, Linkedin, X as XIcon, Github, Facebook} from "lucide-react"
 import Image from "next/image"
 import { Accordion, AccordionItem, AccordionTrigger, AccordionContent } from "@/components/ui/accordion"
 import { toast } from "sonner"
@@ -226,12 +226,12 @@ export default function AboutPage() {
                 <a href="https://www.linkedin.com/in/barryxpaul/" target="_blank" rel="noopener noreferrer" className="text-white-500 hover:text-blue-600 transition">
                   <Linkedin className="h-5 w-5" />
                 </a>
-                <a href="https://x.com/barryxpaul" target="_blank" rel="noopener noreferrer" className="text-white-500 hover:text-black transition">
-                  <XTwitterIcon className="h-5 w-5" />
+                  <a href="https://x.com/barryxpaul" target="_blank" rel="noopener noreferrer" className="text-white-500 hover:text-black transition">
+                    <XTwitterIcon className="h-5 w-5" />
+                  </a>
+                <a href="https://www.facebook.com/barryxpaul" target="_blank" rel="noopener noreferrer" className="text-white-500 hover:text-blue-600 transition">
+                  <Facebook className="h-5 w-5" />
                 </a>
-                <button onClick={handleCopyEmail} className="text-white-500 hover:text-rose-500 transition">
-                  <Mail className="h-5 w-5" />
-                </button>
                 <a href="https://github.com/barryxinpaul" target="_blank" rel="noopener noreferrer" className="text-white-500 hover:text-black dark:hover:text-white transition">
                   <Github className="h-5 w-5" />
                 </a>
