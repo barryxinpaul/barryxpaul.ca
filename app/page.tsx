@@ -218,7 +218,7 @@ export default function AboutPage() {
                   I'm currently based in Toronto, working for Sherpa° to build cool products that makes travelling the world simple.
                 </p>
                 <p>
-                  Feel free to reach out through email or LinkedIn and schedule a chat whenever you'd like!
+                  Feel free to reach out through Messenger, Email, or LinkedIn and schedule a chat whenever you'd like!
                 </p>
               </div>
               {/* Social Icons Row */}
