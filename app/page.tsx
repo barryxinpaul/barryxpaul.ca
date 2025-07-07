@@ -144,7 +144,7 @@ const XTwitterIcon = (props: React.SVGProps<SVGSVGElement>) => (
 export default function AboutPage() {
   const handleCopyEmail = async () => {
     try {
-      await navigator.clipboard.writeText("barrypaul@gmail.com")
+      await navigator.clipboard.writeText("bpaul.hba2027@ivey.ca")
       toast.success("Email copied to clipboard!")
     } catch (err) {
       console.error("Failed to copy email:", err)
